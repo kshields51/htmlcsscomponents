@@ -1,0 +1,282 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a {
+    color: inherit;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+/* spacing */
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  /* border: 3px solid purple; */
+}
+
+thead th:nth-child(1) {
+  width: 30%;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+thead th:nth-child(3) {
+  width: 15%;
+}
+
+thead th:nth-child(4) {
+  width: 35%;
+}
+
+th, td {
+  padding: 20px;
+}
+
+
+
+
+/* zebra striping */
+
+tr:nth-child(1) {
+  background;
+}
+
+tr:nth-child(even) {
+  background-color: #ebebeb;
+}
+
+
+
+table {
+  background-color: #f5f5f5;
+}
+
+table tr th:nth-child(1) {
+    background: white;
+}
+
+/* column header 1 */
+.column-header-1 {
+    background: #2673d1;
+    width: 100%;
+    padding: 0px;
+    height: 100px;
+    
+}
+.column-header-1__subheader {
+    background: #005bc9 !important;
+    height: 108px;
+}
+
+/* column header 2 */
+.column-header-2 {
+    background: #cc4240;
+    
+}
+
+.column-header-2__subheader {
+    background: #c3211f !important;;
+    height: 108px;
+}
+
+/* column header 3 */
+.column-header-3 {
+    background: #4eb95b;
+}
+.column-header-3__subheader {
+    background: #2fad3e !important;
+    height: 108px;
+}
+
+/* This makes it so the headers do not have whitespace between them */
+table tr th {
+    padding: 0
+}
+
+.wrapper {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+tr {
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+
+
+.highlight {
+    color: #cc4240;
+}
+
+table tr th:nth-child(1) {
+    font-size: min(max(1rem, 2vw), 28px);
+    
+    font-weight: 600;
+}
+
+
+div.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ed4841;
+    height: 40px;
+}
+
+.heading-title {
+    color: white;
+    font-weight: 600;
+    font-size: min(max(1rem, 2vw), 26px);
+    line-height: 30px;
+}
+
+.price, .duration {
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.price {
+    font-size: 34px;
+    font-weight: 900;
+}
+
+.duration {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.overall-title {
+    padding-top: 20px;
+    vertical-align: middle;
+    font-size: 100%;
+}
+
+.start-now {
+    text-transform: uppercase;
+    color: white;
+}
+
+.button {
+    cursor: pointer;
+  
+}
+
+.button i {
+    padding-left: 14px;
+    color: white;
+}
+
+.button:hover {
+    background-color: #c3211f;
+}
+
+.fa.fa-check {
+    display: block;
+    text-align: center;
+}
+
+.fa.fa-times {
+    display: block;
+    text-align: center;
+}
+
+
+
+
+
+
+.wrapper-mobile {
+    display: none;
+}
+@media (max-width: 783px)  {
+    .table-wrapper {
+	display: none;
+    }
+
+    .wrapper-mobile {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 90%
+    }
+
+    .heading-title ,.price {
+	text-align: center;
+	font-size: 28px;
+    }
+
+    
+
+    
+
+    
+
+}
+
+
+
+    
