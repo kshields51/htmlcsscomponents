@@ -11,8 +11,8 @@
 
     <!-- font awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    
   </head>
   <body class="bgc-t">
     <!-- mobile version card -->
@@ -21,7 +21,7 @@
       <section class="card bgc-p mont">
 	<div class="card-indent">
 	<h1 class="card__title pte-200 pbe-50 fs-28 fw-600">Free</h1>
-	  <h1 class="card__subtitle fs-20 pbe-100">for everybody</h1>
+	  <h1 class="card__subtitle fs-20 pbe-100 c-s">for everybody</h1>
 	    <div class="feature-container">
 	      <div class="icon-container">
 		<i class="icon" style="height:25px; width:25px; background:black;"></i>
@@ -86,7 +86,7 @@
 	      </p>
 	    </div>
 	<p class="pricing pbe-200"><span class="bold">$0 / </span>month</p>
-	    <a class="card__button card_button-1" href="">
+	    <a class="card__button card__button-1" href="">
 	      Signup for Free
 	    </a>
 	</div>
@@ -104,18 +104,18 @@
 	  
 	  
 	  <th class="sticky">
-	    <td></td>
-	    <td></td>
-	    <td></td>
-	    <td class="sticky">
-	      <a class="card__button card_button-1 button-top" href="">
+	    <td class="sticky"></td>
+	    <td class="sticky"></td>
+	    <td class="sticky tdtop">
+	      <div class="card__button card__button-3 button-top banner">
 		DEVELOPER FAVORITE
-	      </a>
+	      </div>
 	    </td>
+	    <td></td>
 	  </th>
 	  <tr>
-	    <td>
-	      <h1 class="table-details fs-32 mb-16 fw-500">Plan Details</h1>
+	    <td class="plan-details sticky sticky-selection">
+	      <h4 class="fs-32 mb-16 fw-500">Plan Details</h4>
 	      <div class="plan-details-container flex">
 		<div class="plan-details-item flex ai-c">
 		  <input type="radio" class="radio"></input>
@@ -128,17 +128,17 @@
 	      </div>
 	      
 	    </td>
-	    <td>
-	      <p class="table__type fw-500 fs-32 mb-16">Free</p>
+	    <td class="sticky sticky-selection">
+	      <h4 class="table__type fw-500 fs-32 mb-16">Free</h4>
 	      <p class="table__price"><span class="number fs-24 fw-500">$0 /</span>month</p>
 	    </td>
-	    <td>
-	      <p class="table__type fw-500 fs-32 mb-16">Pro</p>
+	    <td class="sticky sticky-selection">
+	      <h4 class="table__type fw-500 fs-32 mb-16">Pro</h4>
 	      <p class="table__price mb-4"><span class="number fs-24 fw-500">$5 /</span>month</p>
 	      <p class="table__subtype c-s">With annual plan</p>
 	    </td>
-	    <td>
-	      <p class="table__type fw-500 fs-32 mb-16">Team</p>
+	    <td class="sticky sticky-selection">
+	      <h4 class="table__type fw-500 fs-32 mb-16">Team</h4>
 	      <p class="table__price mb-4"><span class="number fs-24 fw-500">$7 /</span> user/month</p>
 	      <p class="table__subtype c-s">Starts at $25 for 5 users</p>
 	    </td>
@@ -146,41 +146,41 @@
 	  
 	  <tr>
 	    <td></td>
-	    <td class="something">
+	    <td>
 	      <h1 class="table-type__title c-s mb-20">FOR INDIVIDUALS</h1>
 	      <p class="table-type__description lh-150">The basics of Docker for every developer, including unlimited public repos and one private repo.</p>
 	    </td>
-	    <td class="something">
+	    <td>
 	      <h1 class="table-type__title c-s mb-20">FOR INDIVIDUALS</h1>
 	      <p class="table-type__description lh-150">Pro tools for developers with advanced requirements for parallel builds and unlimited private repos.</p>
 	      
 	    </td>
-	    <td class="something">
+	    <td>
 	      <h1 class="table-type__title c-s mb-20">FOR ORGANIZATIONS</h1>
 	      <p class="table-type__description lh-150">Advanced collaboration and management tools for teams, including organization and team management with role-based access controls, parallel builds, and unlimited private repositories.</p>
 	    </td>
 	  </tr>
 	  <tr>
-	    <td></td>
-	    <td>
-	      <a class="card__button card_button-1" href="">
+	    <td class="sticky sticky-button"></td>
+	    <td class="sticky sticky-button">
+	      <a class="card__button card__button-1" href="">
 		Signup for Free
 	      </a>
 	    </td>
-	    <td>
-	      <a class="card__button card_button-1" href="">
+	    <td class="sticky sticky-button">
+	      <a class="card__button card__button-2" href="">
 		Buy Now
 	      </a>
 	    </td>
-	    <td>
-	      <a class="card__button card_button-1" href="">
+	    <td class="sticky sticky-button">
+	      <a class="card__button card__button-3" href="">
 		Buy Now
 	      </a>
 	    </td>
 	  </tr>
 	  <tr>
 	    <td>
-	      <p class="fw-600 fs-20">Repository Management</p>
+	      <h4 class="fw-600 fs-20">Repository Management</h4>
 	    </td>
 	  </tr>
 	  <tr>
@@ -217,7 +217,7 @@
 	    <td>Unlimited**</td>
 	  </tr>
 <tr>
-  <td class="fw-600 fs-20">CI/CD</td>
+  <td class="a fw-600 fs-20">CI/CD</td>
 </tr>
 <tr>
   <td>Automated builds</td>
@@ -278,7 +278,7 @@
 
 
 <tr>
-  <td class="fw-600 fs-20">User Management</td>
+  <td class="a fw-600 fs-20">User Management</td>
 </tr>
 
 <tr>
