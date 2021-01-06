@@ -62,10 +62,6 @@ table {
 FONT FAMILIES
 *******************/
 
-.mont {
-    font-family: 'Montserrat', sans-serif;
-}
-
 /*******************
 FONT SIZES
 *******************/
@@ -113,6 +109,201 @@ FONT SIZES
 
 .fs-44 {
     font-size: 44px;
+}
+
+.fs-48 {
+    font-size: 48px;
+}
+
+.fs-52 {
+    font-size: 52px;
+}
+
+.fs-56 {
+    font-size: 56px;
+}
+
+.fs-60 {
+    font-size: 60px;
+}
+
+.fs-64 {
+    font-size: 64px;
+}
+
+.fs-68 {
+    font-size: 68px;
+}
+
+.fs-72 {
+    font-size: 72px;
+}
+
+/*******************
+FONT SIZES EMS
+*******************/
+.fse-25 {
+    font-size: .25em;
+}
+
+.fse-50 {
+    font-size: .50em;
+}
+
+.fse-75 {
+    font-size: .75em;
+}
+
+.fse-100 {
+    font-size: 1em;
+}
+
+.fse-125 {
+    font-size: 1.25em;
+}
+
+.fse-150 {
+    font-size: 1.50em;
+}
+
+.fse-175 {
+    font-size: 1.75em;
+}
+
+.fse-200 {
+    font-size: 2em;
+}
+
+.fse-225 {
+    font-size: 2.25em;
+}
+
+.fse-250 {
+    font-size: 2.50em;
+}
+
+.fse-275 {
+    font-size: 2.75em;
+}
+
+.fse-300 {
+    font-size: 3em;
+}
+
+.fse-325 {
+    font-size: 3.25em;
+}
+
+.fse-350 {
+    font-size: 3.50em;
+}
+
+.fse-375 {
+    font-size: 3.75em;
+}
+
+.fse-400 {
+    font-size: 4em;
+}
+
+.fse-425 {
+    font-size: 4.25em;
+}
+
+.fse-450 {
+    font-size: 4.50em;
+}
+
+.fse-475 {
+    font-size: 4.75em;
+}
+
+.fse-500 {
+    font-size: 5em;
+}
+
+/*******************
+FONT SIZES REMS
+*******************/
+
+.fsr-25 {
+    font-size: .25rem;
+}
+
+.fsr-50 {
+    font-size: .50rem;
+}
+
+.fsr-75 {
+    font-size: .75rem;
+}
+
+.fsr-100 {
+    font-size: 1rem;
+}
+
+.fsr-125 {
+    font-size: 1.25rem;
+}
+
+.fsr-150 {
+    font-size: 1.50rem;
+}
+
+.fsr-175 {
+    font-size: 1.75rem;
+}
+
+.fsr-200 {
+    font-size: 2rem;
+}
+
+.fsr-225 {
+    font-size: 2.25rem;
+}
+
+.fsr-250 {
+    font-size: 2.50rem;
+}
+
+.fsr-275 {
+    font-size: 2.75rem;
+}
+
+.fsr-300 {
+    font-size: 3rem;
+}
+
+.fsr-325 {
+    font-size: 3.25rem;
+}
+
+.fsr-350 {
+    font-size: 3.50rem;
+}
+
+.fsr-375 {
+    font-size: 3.75rem;
+}
+
+.fsr-400 {
+    font-size: 4rem;
+}
+
+.fsr-425 {
+    font-size: 4.25rem;
+}
+
+.fsr-450 {
+    font-size: 4.50rem;
+}
+
+.fsr-475 {
+    font-size: 4.75rem;
+}
+
+.fsr-500 {
+    font-size: 5rem;
 }
 
 /*******************
@@ -216,20 +407,6 @@ FLEXBOX UTILITIES
 /*******************
 XMARGIN
 *******************/
-
-.xm-1 {
-    margin-left: auto;
-    margin-right: auto;
-
-    max-width: 96%;
-}
-
-.xm-table {
-    margin-left: auto;
-    margin-right: auto;
-
-    max-width: 80%;
-}
 
 .mb-4 {
     margin-bottom: 4px;
@@ -1124,12 +1301,12 @@ COLORS
 *******************/
 
 .c-p {
-    color: black;
+    color: #FFFFFF;
     
 }
 
 .c-s {
-    color: #90a0be;
+    color: #FFFFFF;
     
 }
 
@@ -1149,7 +1326,7 @@ BACKGROUND-COLORS
 }
 
 .bgc-t {
-    background-color: #eff0f2;
+    background-color: #fff;
 } 
 
 /*******************
@@ -1202,227 +1379,25 @@ BUTTON UTILS
     border-radius: 100px;
 }
 
+/*******************
+PRICING
+*******************/
 
-
-
-.feature {
-    padding-bottom: 1em;
+.roboto {
+    font-family: 'Roboto', sans-serif;
 }
 
-.card__subtitle {
-    text-transform: uppercase;
-}
-
-.card-indent {
-    padding-left: 12px;
-}
-
-.bold {
-    font-weight: 800;
-}
-
-
-.card__button {
-    display: inline-block;
-    border: 2px solid;
-    border-radius: 2px;
-    padding: 12px;
-    cursor: pointer;
-    font-weight: 600;
-
-}
-
-.card__button-1 {
-    background-color: white;
-    border-color: #0073ec;
-    margin-bottom: 20px;
-    color: #0073ec;
-}
-
-
-
-.card__button-2 {
-    background-color: #0073ec;
-    border-color: #0073ec;
-  
-    margin-bottom: 20px;
-    color: white;
-}
-
-.card__button-3 {
-    background-color: #003f8c;
-    border-color: #003f8c;
-  
-    margin-bottom: 20px;
-    color: white;
-}
-
-.banner {
-    cursor: auto;
-    border-radius: 0px;
-}
-
-.tdtop {
-    padding-top: 0;
-}
-
-
-.card__button-2:hover {
-    
-}
-
-@media (min-width: 960px) {
-    .card-wrapper {
-	display: none;
-    }
-
-    
-
-    
-
-    
-}
-
-@media (max-width: 960px) {
-    
-    .card__button {
-	width: 100%;
-	text-align: center;
-	
-    }
-
-    .xm-table {
-    margin-left: 0;
-    margin-right: 0;
-
-    max-width: 100%;
-    }
-
-    .sticky-button {
-	display: none;
-    }
-
-
-    table, .a {
-	font-size: 75% !important;
-    }
-
-    h4 {
-	font-size: 100% !important;
-    }
-
-    .table__price, .details-description, .radio, .banner{
-	display: none;
-    }
-
-    td {
-	max-width: 100%;
-	min-width: 100%;
-    }
-
-    .table__subtype {
-	display: none;
-    }
-
-    .sticky-selection {
-	top: 0px !important;
-    }
-
-    .sticky {
-	background: #eff0f2 !important;
-    }
-
-    .pricing-table {
-	background: #eff0f2;
-	box-shadow: none !important;
-    }
-
+.card {
+    font-family: 'Roboto', sans-serif;
    
-
-    .table-type__description {
-	font-size: 50%;
-    }
-
-    table {
-	max-width: calc(100vw - 50px);
-    }
-
-    tr, td {
-	max-width: 100%;
-	font-size: 75%;
-    }
-
-    
-
-    
-
-    
-
-    
-
-    
-
-
 }
 
-
-
-
-
-/* spacing */
-
-table {
-  table-layout: fixed;
-  border-collapse: collapse;
+.card__title {
+    font-size: 1.50rem;
+    font-weight: 600;
 }
 
-.pricing-table {
-    padding: 20px;
-    box-shadow: 0 3px 6px rgba(11,33,74,.12),0 -2px 2px rgba(11,33,74,.05);
-}
-
-th, td {
-    padding-right: 30px;
-    padding-top: 20px;
-    padding-left: 30px;
-    padding-bottom: 5px;
-}
-
-.button-top {
-    width: 100%;
-    text-align: center;
-    background-color: #003f8c;
-    color: white;
-}
-
-.table-details {
-    width: 300px;
-}
-
-
-
-
-
-
-.sticky {
-    position: sticky;
-    top: 0;
-    z-index: 99;
-    background: white;
-}
-
-.sticky-selection {
-    top: 56px
-}
-
-.sticky-button {
-    top: 185px;
-}
-
-.plan-details {
-}
-
-.plan-details-item {
-    padding-right: 8px;
+.card__description {
+    font-size: 0.875rem
 }
 
