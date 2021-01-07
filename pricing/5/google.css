@@ -1379,178 +1379,67 @@ BUTTON UTILS
     border-radius: 100px;
 }
 
-/*******************
-PRICING
-*******************/
-
-.card-wrapper {
-    padding-top: 16px;
-    border-top: 4px solid #611f69;
-}
-
-.main-wrapper {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1230px;
-}
-
-.roboto {
-    font-family: 'Roboto', sans-serif;
-}
-
 .card {
+    padding: 40px 24px;
+    border: .8px solid gray;
     font-family: 'Roboto', sans-serif;
-    max-width: 306.9px;
-    margin-bottom: 16px;
-    border-right: 1px solid #ebeaeb;
+}
+
+.top {
+    display: inline-block;
     display: flex;
     flex-direction: column;
-    flex: 1;
-    
-    
-   
+    align-items: center;
 }
 
 .card__title {
-    font-size: 1.50rem;
-    font-weight: 600;
+    font-size: 20px;
 }
 
-.card__description, .features__description-text {
-    font-size: 0.875rem;
-    margin-bottom: 16px;
-}
-
-.card__description {
-    line-height: 1.5;
-    min-height: 60.65px;
-}
-
-.card__header, .card__bottom, .card__footer {
-    margin-left: 1em;
-    margin-right: 1em;
-}
-
-.card__header {
-    padding-top: 20px;
-    min-height: 7rem;
-}
-
-.card__button-container {
-    background: #611f69;
-    border: none;
-    border-radius: 4px;
-    padding: 16px 20px;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 14px;
-    margin-bottom: 16px;
+.price-container {
+     margin-top: 16px;
+     margin-bottom: 22px;
 }
 
 .price {
-    font-weight: bold;
-    font-size: 1.5rem;
-    margin-bottom: 16px;
-    min-height: 30px;
+    font-size: 24px;
+    color: #3b78e7;
+    font-size: 36px;
+    letter-spacing: -1px;
+    line-height: 1.5;
+}
+.usd {
+    font-weight: 700;
+    color: gray;
+    font-size: 14px;
+    letter-spacing: -1px;
 }
 
-.duration {
-    font-weight: normal;
+.price-container__frequency {
+    color: gray;
 }
 
-.features-title {
-    font-size: 0.875rem;
-    font-weight: bold;
-    min-height: 48px;
+.button {
+    display: block;
+    background: #1a73e8;
+    color: white;
+    height: 44px;
+    padding: 0 28px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    font-size: 14px;
 }
 
-.card__footer {
-    text-align: center;
-    margin-top: auto;
-    
+.check-container {
+    margin-right: 8px;
 }
 
-.card__link {
-    font-size: 0.875rem;
-    color: #1264a3;
-    
+.feature__item {
+    margin: 15px 0;
 }
 
-
-@media (max-width: 1024px) {
-    
-    .card__bottom {
-	min-height: 539.033px;
-    }
-
-    .card__header {
-	height: 9rem;
-    }
-
-    .card__pricing-container {
-	min-height: 5rem;
-    }
-}
-
-@media (max-width: 768px) {
-    .main-wrapper {
-	display: none;
-    }
-
-    .mobile-card-wrapper {
-	magin: 0 8px 16px 8px;
-	padding: 32px; 16px 16px 16px;
-    }
-
-    .mobile-card {
-	font-family: 'Roboto', sans-serif;
-	display: flex;
-	flex-direction: column;
-	
-    }
-
-    .mobile-card__title {
-	font-size: 1.5rem;
-	font-weight: bold;
-    }
-
-    .mobile-card__description {
-	font-size: 0.875rem;
-	margin-bottom: 16px;
-    }
-
-    .mobile-card__price {
-	font-size: 1.5rem;
-	font-weight: bold;
-	margin-bottom: 16px;
-    }
-
-    .mobile-card__pricemod {
-	font-weight: normal;
-    }
-
-    .mobile-card__description-container-header {
-	font-weight: bold;
-	font-size: 0.875rem;
-	margin-bottom: 16px;
-    }
-
-    .check-description-container {
-	font-size: 0.875rem;
-    }
-
-    .description-text-container {
-	margin-bottom: 16px;
-    }
-
-    .footer__item {
-	font-family: 'Roboto', sans-serif;
-    }
-
-    
+.features-list {
+    border-top: 1px solid black;
+    margin-top: 24px;
 }
