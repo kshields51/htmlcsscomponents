@@ -6,16 +6,27 @@
     <link href="scoro.css" rel="stylesheet"/>
      <link rel="preconnect" href="https://fonts.gstatic.com">
      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+     <!-- font awesome -->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
      
   </head>
   <body>
     <section class="cards-showcase">
-      <div class="cards-container ym-1 flex  jc-sb">
+      <div class="cards-container ym-1 flex column bgc-p jc-sb">
 	<div class="mobile-card pt-32 flex jc-c ai-c column">
 	  <h1 class="c-p fw-700 mb-16">Essential</h1>
 	  <p class="mobile-card__description fsr-875 lh-150 mb-16">For smaller teams looking to manage all the essential aspects of their business in one place.</p>
 	  <p class="price fw-700 fse-175">$26</p>
 	  <p class="duration c-s fse-75 mb-32">user / month, min. 5 users</p>
+	  <div class="status-bar bgc-p flex">
+	    <div class="work"></div>
+	    <div class="sales"></div>
+	    <div class="reporting"></div>
+	  </div>
 	</div> <!-- end mobile-card -->
 	<div class="mobile-card pt-32 flex jc-c ai-c column">
 	  <h1 class="c-p fw-700 mb-16">Work Hub</h1>
@@ -37,6 +48,53 @@
 	  <p class="duration c-s fse-75 mb-32">user / month, min. 5 users</p>
 	</div> <!-- end mobile-card -->
       </div>
+    </section>
+
+    <section class="table-showcase">
+      <div class="table-container ym-1">
+	<div class="table">
+	   <div class="row row-top flex ai-c bgc-p">
+	    <div class="cell-1 large-cell bgc-p empty">
+	    </div>
+	    <div class="cell-2 cell-2-top flex jc-c bgc-p">
+	      <div class="white-wrapper bgc-s flex jc-c column ai-c">
+		<h1 class="fw-600 c-p mb-16">Essential</h1>
+		<p class="fw-700">$26</p>
+	      </div>
+	    </div>
+	    <div class="cell-3 cell-3-top flex jc-c bgc-p">
+	      <div class="white-wrapper bgc-s flex jc-c column ai-c">
+		<h1 class="fw-600 c-p mb-16">Work Hub</h1>
+		<p class="fw-700">$26</p>
+	      </div>
+	    </div>
+	    <div class="cell-4 cell-4-top flex jc-c bgc-p">
+	      <div class="white-wrapper bgc-s flex jc-c column ai-c">
+		<h1 class="fw-600 c-p mb-16">Work Hub</h1>
+		<p class="fw-700">$26</p>
+	      </div>
+	    </div>
+	      <div class="cell-5 cell-5-top flex jc-c bgc-p">Cell 5</div>
+	      <div class="cell-6 cell-6-top flex jc-c bgc-p">Cell 6</div>
+	      <div class="cell-7 cell-7-top flex jc-c bgc-p">Cell 7</div>
+	   </div>
+	    <div class="row flex divider ai-c">
+	    <div class="cell-1">
+	      <h2 class="fw-700 " href="">WORK &amp; COLLABORATION</h2>
+	    </div>
+	    <div class="cell-2 flex jc-c">
+	    </div>
+	  </div>
+	  <div class="row flex ai-c">
+	    <div class="cell-1">
+	      <a href="">Personal &amp; shared calendar</a>
+	    </div>
+	    <div class="cell-2 flex jc-c">
+	      <i style="color:#e64d69;" class="fa fa-check"></i>
+	    </div>
+	  </div>
+	</div> <!-- end mobile table -->
+      </div>   <!-- end mobile-table-container -->
     </section>
   </body>
 </html>

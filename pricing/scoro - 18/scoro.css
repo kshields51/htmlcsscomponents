@@ -1322,7 +1322,7 @@ COLORS
 BACKGROUND-COLORS
 *******************/
 .bgc-p {
-    background-color: #fff;
+    background-color: #f5f7fb;
 }
 
 .bgc-s {
@@ -1377,6 +1377,15 @@ LINE HEIGHTS
 BUTTON UTILS
 *******************/
 
+.cards-showcase {
+    margin-bottom: 100px;
+}
+
+.mobile-card, .tab-card {
+    background: white;
+    
+}
+
 body {
     background: #f5f7fb;
 }
@@ -1389,18 +1398,100 @@ body {
 
 .mobile-card {
     font-family: 'Arial';
-    width: 25%;
-    background: white;
     padding: 24px;
+    border-radius: 8px;
 }
 
 .mobile-card__description {
     text-align: center;
+    color: #343f53;
 }
 
-.cards-showcase {
-    height: 150vh;
-}
+
 
 .cards-container {
+    height: 950px;
+}
+
+/*******************
+MOBILE TABLE STYLES
+*******************/
+
+.table {
+    font-family: 'Arial';
+}
+
+.status-bar {
+    width: 50%;
+    height: 12px;
+    border-radius: 8px;
+}
+
+.work, .sales, .reporting {
+    height: 12px;
+}
+
+.work {
+    background-color: #afe6d2;
+    width: 10%;
+    border-radius: 8px 0 0 8px;
+}
+
+.sales {
+    background-color: #7581c0;
+    width: 10%;
+
+}
+
+.reporting {
+    background-color: #f6d274;
+    width: 10%;
+}
+.tab-card {
+    width: 104.867px; 		/*change this propbably*/
+    /* border-box: content-box; */
+}
+
+.row {
+    height: 44px;
+    font-size: .75rem;
+    background-color: #fff;
+					 
+}
+
+.cell-1 {
+    flex-basis: 0;
+    flex-grow: 1;
+    padding: 12px;
+}
+
+.cell-2, .cell-3, .cell-4, .cell-5, .cell-6, .cell-7 {
+    flex-basis: 0;
+    flex-grow: 1
+}
+
+.cell-2-top, .cell-3-top, .cell-4-top, .cell-5-top, .cell-6-top, .cell-7-top {
+    
+    height: 100%;
+}
+
+.white-wrapper {
+    width: 50%;
+    height: 100%;
+    border-radius: 6px 6px 6px 6px;
+}
+
+.row-top {
+    height: 73px;
+    
+}
+
+.empty {
+    height: 100%;
+}
+
+
+.divider {
+    background-color: #effaf6;
+    color: #343f53;
 }
