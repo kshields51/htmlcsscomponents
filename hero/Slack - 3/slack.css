@@ -1292,8 +1292,8 @@ YMARGIN
 
     max-width: 1170px;
 
-    padding-left: 16px;
-    padding-right: 16px
+    padding-left: 24px;
+    padding-right: 24px
 }
 
 /*******************
@@ -1379,88 +1379,67 @@ BUTTON UTILS
     border-radius: 100px;
 }
 
-body {
-    
-}
-
-.hero-showcase {
-    
-    background-image: url('homepage-banner-bg.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 200px 0;
-    
-
-
-    
-    color: white;
-    font-family: "Montserrat";
-    
-}
-
 .button {
-    display: flex
-    border: 2px solid;
-    border-radius: 2px;
-    padding: 12px 36px;
-    cursor: pointer;
-    font-weight: 600;
-    max-width: 200px
-
+    display: inline-block;
+    width: auto;
+    background: #611f69;
+    padding: 16px 20px;
 }
 
-.button-2 {
-    background-color: #0073ec;
-    border-color: #0073ec;
-  
-    margin-bottom: 20px;
+.card__button-container {
+    border: none;
+    border-radius: 4px;
     color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-bottom: 16px;
 }
 
-.hero-container {
-    max-width: 516px;
+.hero-text__description {
+    max-width: 70%;
+    line-height: 1.5
 }
-/*******************
-CARD STYLES
-*******************/
-
-.card {
-    background: white;
-    color: black;
-    padding: 32px;
-    max-width: 516px;
-    box-shadow: 0 4px 30px rgba(11,33,74,.11),0 -2px 5px rgba(11,33,74,.03);
+body {
+    background-color: #f6efe8;
 }
 
-.description-box__description {
-    color: #90a0ac;
+
+.hero-grid {
+    display: grid;
+    grid-template-columns: 50% 45%;
+
+    max-width: 76.875rem;
+
+    grid-column-gap: 5%;
+
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
-.hero-img {
+video {
     width: 100%;
 }
 
-.img-box {
-    max-width: 436px;
-}
 
-.link {
-    color: #329eee;
-    margin-left: 16px;
-}
+@media (max-width: 767px) {
+    .hero-grid {
+	display: flex;
+	flex-wrap: wrap;
 
-
-@media (min-width: 769px) {
-    .hero-container {
-	flex-direction: row;
+	padding: 0 4vw;
     }
 
-    .card {
-	margin-left: 1em;
+    .card__button-container {
+	text-align: center;
+	
     }
 
-    .hero-container, .card, .img-box {
-	max-width: 100%;
+    .button {
+	display: block;
     }
-    
 }
